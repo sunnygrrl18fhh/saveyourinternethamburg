@@ -76,6 +76,19 @@ table {
        url('fonts/open-sans-condensed-v13-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('fonts/open-sans-condensed-v13-latin-700.svg#OpenSansCondensed') format('svg'); /* Legacy iOS */
 }
+/* anton-regular - latin */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/anton-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Anton Regular'), local('Anton-Regular'),
+       url('fonts/anton-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/anton-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/anton-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/anton-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/anton-v10-latin-regular.svg#Anton') format('svg'); /* Legacy iOS */
+}
 
 html {
 	overflow-y: scroll;
@@ -103,7 +116,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Impact, Helvetica, Arial, san-serif;
+	font-family: Anton, Helvetica, Arial, san-serif;
 	text-transform: uppercase;
 	color: #fff;
 	line-height: 1.1;
@@ -277,7 +290,7 @@ a.anchor {
 	padding: 40px 0;
 }
 .navigation {
-	font-family: Impact, Helvetica, Arial, san-serif;
+	font-family: Anton, Helvetica, Arial, san-serif;
 	text-transform: uppercase;
 	color: #fff;
 	width: 100vw;
