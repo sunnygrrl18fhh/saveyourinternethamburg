@@ -174,11 +174,13 @@ h2 {
 .header {
 	padding: 15vh 0 5vh;
 }
-.subheadline {
+span.subheadline {
 	font-size: 50px;
 	text-align: center;
 	display: block;
 	text-transform: uppercase;
+	font-family: "Open Sans Condensed", Helvetica, Arial, san-serif;
+	color: #fff;
 }
 .subheadline.small {
 	font-size: 32px;
@@ -328,6 +330,11 @@ a.anchor {
 	color: #e00429;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
+}
+
+.impr a {
+	color: #1a4061;
+	text-decoration: none;
 }
 
 @media (max-width: 1000px) {
