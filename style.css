@@ -336,6 +336,9 @@ a.anchor {
 	color: #1a4061;
 	text-decoration: none;
 }
+p.impr {
+	text-align: center;
+}
 
 @media (max-width: 1000px) {
 	h1 { font-size: 80px; }
