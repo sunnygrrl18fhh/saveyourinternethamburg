@@ -1,4 +1,0 @@
-#Force www:
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^savetheinternethamburg.info [NC]
-RewriteRule ^(.*)$ https://www.savetheinternethamburg.info/$1 [L,R=301,NC]
