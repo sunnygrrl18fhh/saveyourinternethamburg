@@ -196,8 +196,8 @@ span.subheadline {
 	background-color: #e00429;
 	width: 100vw;
 	margin-top: 50px;
-	margin-bottom: 50px;
 	margin-left: -30px;
+	padding-bottom: 30px;
 }
 
 .red-wrapper h2 {
@@ -226,6 +226,13 @@ span.subheadline {
 	color: yellow;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
+}
+.grey-wrapper {
+	background-color: #253440;
+	width: 100vw;
+	margin-bottom: 50px;
+	margin-left: -30px;
+	padding-top: 20px;
 }
 
 a.other {
@@ -269,9 +276,9 @@ article.col-3 {
 		  margin-top: 30px;
 }
 article.col-4 {
-  -webkit-columns: 4 190px;
-     -moz-columns: 4 190px;
-          columns: 4 190px;
+  -webkit-columns: 4 150px;
+     -moz-columns: 4 150px;
+          columns: 4 150px;
   -webkit-column-gap: 1.5em;
      -moz-column-gap: 1.5em;
           column-gap: 1.5em;
